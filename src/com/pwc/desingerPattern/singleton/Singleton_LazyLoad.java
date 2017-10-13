@@ -2,7 +2,7 @@ package com.pwc.desingerPattern.singleton;
 
 /**
  * 
- * There is concurrent issue of thread safe in Singleton_LazyLoad node.
+ * There is concurrent issue of thread safe in Singleton_LazyLoad mode.
  * 
  * */
 public class Singleton_LazyLoad {
@@ -16,7 +16,6 @@ public class Singleton_LazyLoad {
 		return instance;
 
 	}
-	
 	
 	public void verify() {
 		
