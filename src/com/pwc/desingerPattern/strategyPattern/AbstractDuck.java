@@ -1,9 +1,8 @@
 package com.pwc.desingerPattern.strategyPattern;
 
 public abstract class AbstractDuck {
-
 	
-	
+	public IFlyFunction flyFunction;
 	
 	public abstract void walk();
 	
