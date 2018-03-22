@@ -2,6 +2,8 @@ package com.pwc.DynamicProxy.jdk;
 
 public interface Subject {
 	
-	public String doSomething();
+	public String noParameterMethod();
+	
+	public String hasParameterMethod(String  string);
 
 }

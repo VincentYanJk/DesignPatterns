@@ -13,6 +13,7 @@ public static void main(String[] strs) {
 	
 	Subject subProxy = (Subject) Proxy.newProxyInstance(Subject.class.getClassLoader(),
 			                                               new Class[] {Subject.class},                                                                invoke);
-	subProxy.doSomething();
+	System.out.println(subProxy.hasParameterMethod("qqq"));
+	System.out.println(subProxy.noParameterMethod());
   }
 }
